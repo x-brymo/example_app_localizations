@@ -37,8 +37,10 @@ class MainApp extends StatelessWidget {
       },
       debugShowCheckedModeBanner: false,
       home: Scaffold(
+        backgroundColor: Colors.deepPurple,
         appBar: AppBar(
-          title: const Text("Main App"),
+          backgroundColor: Colors.deepOrange,
+          title: const Text("Localizations App Branch Manual"),
         ),
         body: Column(
           mainAxisAlignment: MainAxisAlignment.center,
